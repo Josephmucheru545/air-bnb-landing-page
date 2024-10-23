@@ -1,0 +1,35 @@
+*_*after *_*before{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+:root{
+    --main-margin:5px 25px
+    --color:
+}
+.main-header{
+    margin: var(--main-margin);
+}
+.main-icon img{
+    width: 40px;
+    height: 40;
+    margin: 8px;
+    display: flex ;
+}
+.main-icon{
+    display: flex;
+    align-items: center;
+}
+.main-icon h1{
+    color: rgb(255, 1, 1);
+}
+.search-bar-content{
+    display: flex;
+    justify-content: space-between;
+}
+nav{
+    display: flex;
+    
+}
