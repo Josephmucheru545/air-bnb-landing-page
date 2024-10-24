@@ -1,5 +1,5 @@
 *_*after *_*before{
-    margin: 0px;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Courier New', Courier, monospace;
@@ -14,22 +14,61 @@
 }
 .main-icon img{
     width: 40px;
-    height: 40;
-    margin: 8px;
-    display: flex ;
+    height: 40px;
 }
 .main-icon{
     display: flex;
     align-items: center;
+    gap: 8px;
+}
+.search-bar {
+    border:1.8px solid rgb(136, 132, 132) ;
+    border-radius: 33px;
+    display: flex;
+    
+    
+    
+  
+   
+
+    
 }
 .main-icon h1{
     color: rgb(255, 1, 1);
 }
 .search-bar-content{
     display: flex;
-    justify-content: space-between;
+    
+    align-items: center;
+   padding: 0.2px 30px;
+   margin: 2px;
 }
 nav{
     display: flex;
+    justify-content: space-between;
+   
+}
+h3:not(:nth-child(3)){
+    border-right: 1px solid rgb(84, 87, 84);
+
+
+padding:0 10px;
+   
+
+}
+.fa-solid{
+    background-color: rgb(226, 43, 43);
+    display: inline;
+    border: none;
+    border-radius:100px;letter-spacing: normal;
+    font-size: 10px;
+    padding: 5px 5px;
+
+
+
+}
+.search-icon{
+    display: flex;
+    align-items: center;
     
 }
